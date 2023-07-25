@@ -1,0 +1,65 @@
+:root {
+  --clr-bg-primary: hsl(0, 0%, 100%);
+  --clr-bg-secondary: hsl(212, 45%, 89%);
+  --clr-text-primary: hsl(218, 44%, 22%);
+  --clr-text-secondary: hsl(220, 15%, 55%);
+
+  --ff-primary: 'Outfit', sans-serif;
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  --fs-size-primary: 2rem;
+  --fs-size-secondary: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* General Styling */
+
+body {
+  height: 100vh;
+  background-color: var(--clr-bg-secondary);
+  font-size: var(--fs-size-primary);
+  font-weight: var(--fw-normal);
+  font-family: var(--ff-primary);
+  color: var(--clr-text-secondary);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--clr-bg-primary);
+  max-width: 30rem;
+  padding: 1.3rem 1.3rem 1.5em 1.3rem;
+  border-radius: 1.5rem;
+}
+
+.qr-code {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+}
+
+.text-box {
+  padding: 1rem;
+}
+
+.primary-text {
+  font-weight: var(--fw-bold);
+  color: var(--clr-text-primary);
+  margin: 1.4rem 0;
+}
+
+.description {
+  font-size: var(--fs-size-secondary);
+}
